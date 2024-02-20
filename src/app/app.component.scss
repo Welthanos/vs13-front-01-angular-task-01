@@ -10,15 +10,21 @@ header {
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 2rem;
 
         padding: 0.5rem 2rem;
         background-color: #784d71;
 
         a {
-            font-size: 1.25rem;
+            width: 10rem;
+            text-align: center;
+            font-size: 1.3rem;
             font-weight: 600;
             color: #ead6e7;
+        }
+
+        a:hover{
+            background-color: #ead6e73f;
+            border-radius: 30px;
         }
     }
 }
