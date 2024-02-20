@@ -1,0 +1,36 @@
+section {
+    display: flex;
+    flex-direction: column;
+
+    span {
+        width: 15rem;
+        padding: 0.8rem;
+
+        color: #ead6e7;
+        font-size: 2.5rem;
+        text-align: center;
+        background-color: #5a004d;
+
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    button {
+        width: 50%;
+        border: none;
+        font-size: 2rem;
+        background-color: #d6c2d2;
+
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+
+    button:first-child {
+        border-bottom-left-radius: 10px;
+    }
+
+    button:last-child {
+        border-bottom-right-radius: 10px;
+    }
+}
