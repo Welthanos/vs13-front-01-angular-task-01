@@ -1,15 +1,16 @@
 section {
     display: flex;
     flex-direction: column;
+    margin-top: 4rem;
 
     span {
-        width: 15rem;
-        padding: 0.8rem;
+        width: 20rem;
+        padding: 1.5rem;
 
         color: #ead6e7;
         font-size: 2.5rem;
         text-align: center;
-        background-color: #5a004d;
+        background-color: rgb(49, 29, 60);
 
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
@@ -19,6 +20,7 @@ section {
         width: 50%;
         border: none;
         font-size: 2rem;
+        padding-block: 0.5rem;
         background-color: #d6c2d2;
 
         &:hover {
