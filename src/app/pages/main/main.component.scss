@@ -4,8 +4,31 @@ main {
     justify-content: center;
     flex-direction: column;
     gap: 2rem;
-    min-height: 87vh;
+    padding: 2.5rem;
 
     background-image: linear-gradient(to bottom, #020004, #1c0130, #020004);
     color: #e1dae5;
+
+    div.title {
+        width: 100%;
+        max-width: 1200px;
+
+        h1 {
+            font-size: 2.7rem;
+            padding-bottom: 1.5rem;
+            margin-block: 1rem 1.5rem;
+            border-bottom: 2px solid rgb(49, 29, 60);
+        }
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+
+        max-width: 1200px;
+
+        p {
+            font-size: 1.4rem;
+        }
+    }
 }

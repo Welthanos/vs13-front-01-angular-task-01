@@ -1,3 +1,10 @@
 <main>
-    
+    <div class="title">
+        <h1>Akali - A principal campeã de Welthanos</h1>
+    </div>
+    <section>
+        <app-main-child [backgroundFromMain]="backgroundForChild"></app-main-child>
+        <app-main-other-child (descriptionToSend)="receiveDescription($event)"></app-main-other-child>
+        <p>{{descriptionFromChild}}</p>
+    </section>
 </main>
