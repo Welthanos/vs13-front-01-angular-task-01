@@ -9,18 +9,15 @@ import { CommonModule } from '@angular/common';
   styleUrl: './mastery.component.scss'
 })
 export class MasteryComponent {
-  title = 'Top 3 Maestrias de Welthanos - League Of Legends';
+  title = 'Top 3 Maestrias de Welthanos';
   champions = [
     {
-      name: 'Akali',
       image: '../../assets/akali.png',
     },
     {
-      name: 'Diana',
       image: '../../assets/diana.png',
     },
     {
-      name: "Kha'Zix",
       image: '../../assets/khazix.png',
     }
   ]

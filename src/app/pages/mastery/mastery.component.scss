@@ -1,24 +1,35 @@
 main {
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
-    min-height: 87vh;
-    gap: 3rem;
+    gap: 2rem;
+    padding: 2.5rem;
+    min-height: 88.6vh;
 
     background-image: linear-gradient(to bottom, #020004, #1c0130, #020004);
     color: #e1dae5;
 
-    h2 {
-        font-size: 2rem;
+    div.title {
+        width: 100%;
+        max-width: 1200px;
+
+        h1 {
+            font-size: 2.7rem;
+            padding-bottom: 1.5rem;
+            margin-block: 1rem 1.5rem;
+            border-bottom: 2px solid rgb(49, 29, 60);
+        }
     }
 
     section {
         display: flex;
         gap: 2rem;
 
+        max-width: 1200px;
+
         img {
-            height: 18rem;
+            margin-top: 2rem;
+            width: 22rem;
         }
 
         h3 {

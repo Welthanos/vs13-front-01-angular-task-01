@@ -1,19 +1,10 @@
 <main>
-    <h2>{{title}}</h2>
+    <div class="title">
+        <h1>{{title}}</h1>
+    </div>
     <section>
-        <div>
-            <img [src]="champions[0].image" alt="Moldura da campeã do League Of Legends Akali">
-            <h3>{{champions[0].name}}</h3>
-        </div>
-
-        <div>
-            <img [src]="champions[1].image" alt="Moldura da campeã do League Of Legends Diana">
-            <h3>{{champions[1].name}}</h3>
-        </div>
-
-        <div>
-            <img [src]="champions[2].image" alt="Moldura da campeã do League Of Legends Kha'Zix">
-            <h3>{{champions[2].name}}</h3>
-        </div>
+        <img [src]="champions[0].image" alt="Moldura da campeã do League Of Legends Akali">
+        <img [src]="champions[1].image" alt="Moldura da campeã do League Of Legends Diana">
+        <img [src]="champions[2].image" alt="Moldura da campeã do League Of Legends Kha'Zix">
     </section>
 </main>

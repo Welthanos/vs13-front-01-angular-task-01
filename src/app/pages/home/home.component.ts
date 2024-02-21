@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './home.component.scss'
 })
 export class HomeComponent {
-  title = 'Bem-vindos à página do player Welthanos!';
+  title = 'Bem-vindos à página do jogador Welthanos!';
   profile = {
     images: [
       '../../assets/profile-1.png',
