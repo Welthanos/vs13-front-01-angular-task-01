@@ -1,0 +1,15 @@
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    min-height: 87vh;
+
+    background-image: linear-gradient(to bottom, #020004, #1c0130, #020004);
+    color: #e1dae5;
+
+    h2 {
+        font-size: 2rem;
+    }
+}

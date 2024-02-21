@@ -1,12 +1,15 @@
 import { Routes } from '@angular/router';
-import { LolMasteryComponent } from './lol-mastery/lol-mastery.component';
-import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-import { CounterPageComponent } from './counter-page/counter-page.component';
-import { AnimesComponent } from './animes/animes.component';
+import { MasteryComponent } from './pages/mastery/mastery.component';
+import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
+import { CounterPageComponent } from './pages/counter-page/counter-page.component';
+import { AnimesComponent } from './pages/animes/animes.component';
+import { HomeComponent } from './pages/home/home.component';
+import { MainComponent } from './pages/main/main.component';
 
 export const routes: Routes = [
-    { path: '', redirectTo: '/lol-mastery', pathMatch: 'full' },
-    { path: 'lol-mastery', component: LolMasteryComponent },
+    { path: '', component: HomeComponent },
+    { path: 'main', component: MainComponent },
+    { path: 'mastery', component: MasteryComponent },
     { path: 'counter', component: CounterPageComponent },
     { path: 'animes', component: AnimesComponent },
     { path: '**', component: PageNotFoundComponent },

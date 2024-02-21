@@ -2,13 +2,13 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-lol-mastery',
+  selector: 'app-mastery',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './lol-mastery.component.html',
-  styleUrl: './lol-mastery.component.scss'
+  templateUrl: './mastery.component.html',
+  styleUrl: './mastery.component.scss'
 })
-export class LolMasteryComponent {
+export class MasteryComponent {
   title = 'Top 3 Maestrias de Welthanos - League Of Legends';
   champions = [
     {

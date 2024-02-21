@@ -2,7 +2,7 @@ header {
     h1 {
         font-size: 1.85rem;
         padding: 0.8rem 2rem;
-        background-color: #5a004d;
+        background-color: #1e0234;
         color: #ead6e7;
     }
 
@@ -11,20 +11,21 @@ header {
         align-items: center;
         justify-content: center;
 
-        padding: 0.2rem 2rem;
-        background-color: #784d71;
+        padding: 0.25rem 2rem;
+        background-color: #310654;
+        z-index: 4;
 
         a {
             width: 10rem;
-            padding-block: 0.15rem;
+            padding-block: 0.2rem;
             text-align: center;
             font-size: 1.3rem;
             font-weight: 500;
             color: #ead6e7;
         }
 
-        a:hover{
-            background-color: #ead6e73f;
+        a:hover {
+            background-color: #ffffff21;
             border-radius: 30px;
         }
     }
@@ -33,7 +34,7 @@ header {
 footer {
     text-align: center;
     padding: 1.2rem 2rem;
-    background-color: #3b0032;
+    background-color: #1c0130;
 
     span {
         font-size: 1.2rem;
