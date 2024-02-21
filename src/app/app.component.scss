@@ -1,9 +1,17 @@
 header {
-    h1 {
-        font-size: 1.85rem;
-        padding: 0.8rem 2rem;
+    span {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+
+        font-size: 1.6rem;
+        padding: 0.7rem 2rem;
         background-color: #1e0234;
-        color: #ead6e7;
+        color: #a69862;
+
+    img {
+        width: 2rem;
+    }
     }
 
     nav {
