@@ -1,6 +1,6 @@
-# Trilha Frontend | Task 01 - Angular
+# Trilha Frontend | Task 02 - Angular
 
-Tarefa para a 1ª aula de Angular, a fim de praticar e fixar os conceitos em aula ministrados.
+Tarefa para a 2ª aula de Angular, a fim de praticar e fixar os conceitos em aula ministrados.
 
 ## Tecnologias
 
@@ -13,7 +13,7 @@ Tarefa para a 1ª aula de Angular, a fim de praticar e fixar os conceitos em aul
 
 ## Deploy:
 
-- <a href="https://vs13-front-01-angular-task-01.vercel.app/">Task 01 | Angular</a>
+- <a href="https://vs13-front-01-angular-task-01.vercel.app/">Task 02 | Angular</a>
 
 ## Autor
 
