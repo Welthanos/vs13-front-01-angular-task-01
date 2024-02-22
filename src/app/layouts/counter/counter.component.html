@@ -1,7 +1,8 @@
 <section>
-    <span>{{counter}}</span>
+    <span>{{kills}} / {{deaths}} / {{assistences}}</span>
     <div>
-        <button (click)="decrement()">-</button>
-        <button (click)="increment()">+</button>
+        <button (click)="incrementKill()">+ Abate</button>
+        <button (click)="incrementDeath()">+ Morte</button>
+        <button (click)="incrementAssistence()">+ Assistência</button>
     </div>
 </section>
