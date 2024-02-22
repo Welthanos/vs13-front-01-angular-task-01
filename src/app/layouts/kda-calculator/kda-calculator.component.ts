@@ -1,13 +1,13 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
-  selector: 'app-counter',
+  selector: 'app-kda-calculator',
   standalone: true,
   imports: [],
-  templateUrl: './counter.component.html',
-  styleUrl: './counter.component.scss'
+  templateUrl: './kda-calculator.component.html',
+  styleUrl: './kda-calculator.component.scss'
 })
-export class CounterComponent {
+export class KDACalculatorComponent {
   @Input() kda!: number;
   @Input() kills!: number;
   @Input() deaths!: number;

@@ -6,6 +6,9 @@ section {
         display: flex;
         width: 45rem;
 
+        background-color: rgb(65, 30, 84);
+        border-top-left-radius: 10px;
+
         span {
             width: 100%;
             padding: 1.5rem;
@@ -13,15 +16,13 @@ section {
             color: #ead6e7;
             font-size: 2.5rem;
             text-align: center;
-            background-color: rgb(49, 29, 60);
-
-            border-top-left-radius: 10px;
-            border-top-right-radius: 10px;
         }
 
         #result {
-            color: rgb(74, 43, 91);
+            color: rgb(65, 30, 84);
             background-color: #d6c2d2;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
         }
     }
 
@@ -32,7 +33,7 @@ section {
         font-weight: 500;
         padding-block: 0.5rem;
         background-color: #fff6fd;
-        color: rgb(74, 43, 91);
+        color: rgb(65, 30, 84);
 
         &:hover {
             opacity: 0.8;
