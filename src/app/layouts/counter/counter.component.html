@@ -1,5 +1,8 @@
 <section>
-    <span>{{kills}} / {{deaths}} / {{assistences}}</span>
+    <div class="resume">
+        <span>{{kills}} / {{deaths}} / {{assistences}}</span>
+        <span id="result">KDA {{kda.toFixed(2)}}</span>
+    </div>
     <div>
         <button (click)="incrementKill()">+ Abate</button>
         <button (click)="incrementDeath()">+ Morte</button>

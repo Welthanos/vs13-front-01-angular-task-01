@@ -2,26 +2,37 @@ section {
     display: flex;
     flex-direction: column;
 
-    span {
+    div.resume {
+        display: flex;
         width: 45rem;
-        padding: 1.5rem;
 
-        color: #ead6e7;
-        font-size: 2.5rem;
-        text-align: center;
-        background-color: rgb(49, 29, 60);
+        span {
+            width: 100%;
+            padding: 1.5rem;
 
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
+            color: #ead6e7;
+            font-size: 2.5rem;
+            text-align: center;
+            background-color: rgb(49, 29, 60);
+
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+        #result {
+            color: rgb(74, 43, 91);
+            background-color: #d6c2d2;
+        }
     }
 
     button {
         width: 15rem;
-        border: none;
+        border: 1px solid #d6c2d2;
         font-size: 1.6rem;
         font-weight: 500;
         padding-block: 0.5rem;
-        background-color: #d6c2d2;
+        background-color: #fff6fd;
+        color: rgb(74, 43, 91);
 
         &:hover {
             opacity: 0.8;
