@@ -5,7 +5,7 @@ main {
 
     min-height: 50rem;
     padding: 2.5rem;
-    gap: 2rem;
+    gap: 1rem;
 
     background-image: linear-gradient(to bottom, #020004, #1c0130, #020004);
     color: #e1dae5;
@@ -19,6 +19,21 @@ main {
             padding-bottom: 1.5rem;
             margin-block: 1rem 1.5rem;
             border-bottom: 2px solid rgb(49, 29, 60);
+        }
+    }
+
+    div.content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        width: 100%;
+        max-width: 1200px;
+
+        img {
+            width: 20rem;
+            opacity: 0.9;
         }
     }
 }
